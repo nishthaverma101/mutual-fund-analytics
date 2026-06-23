@@ -1,0 +1,22 @@
+DAY 1 DATA QUALITY SUMMARY
+
+Datasets Analysed: 10
+
+Observations:
+
+1. All 10 datasets loaded successfully.
+
+2. No missing values were found in 9 out of 10 datasets.
+
+3. Dataset 04_monthly_sip_inflows.csv contains 12 missing values in the yoy_growth_pct column.
+
+4. Missing YOY growth values are expected because previous-year data is unavailable for the initial months.
+
+5. Several date-related columns are currently stored as object datatype and should be converted to datetime format during preprocessing.
+
+6. AMFI codes are present across multiple datasets and appear suitable for joining fund-related information.
+
+7. No obvious structural issues were identified during ingestion.
+
+Conclusion:
+The datasets are generally clean and suitable for further analysis and preprocessing.
